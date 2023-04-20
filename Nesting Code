@@ -1,0 +1,16 @@
+print ("=== Find what type of person you are based on your TV Shows===")
+yourFavshow = input ("What's your favourite show?")
+if yourFavshow == "Game of thrones":
+  print ("Ummm, interesting, who is your favourite character?")
+  if favCharacter == "Jamie":
+    print ( "I guess love unattainable things and obsess over it")
+  elif favCharacter == "Cersei":
+    print ( "You're hungry, witty and deceitful. You are willing to persue your goals at any cost. Even sacrifice your family.. Sigh")
+  elif favCharacter == "Brienne":
+    print ( "Maybe your a man stuck in a womens body or vice versa. And you identify as them or you should. Soon!")
+  elif favCharacter == "Arya":
+    print ( "You're still young at hurt and your curious to explore the world")
+  else: 
+    print ("You're an NPC")
+else:
+  print ("Eh, you're an NPC")
