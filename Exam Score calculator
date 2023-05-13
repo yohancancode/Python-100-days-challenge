@@ -1,0 +1,26 @@
+print("__Exam Grade Calcluator__")
+exam_name = str(input("Name of your Exam?:"))
+max_score = int(input("What is the total score the exam is graded for?"))
+your_score = float(input("How much did you score on the test?"))
+number_score = float(your_score/max_score)
+final_number = round(number_score,2)
+final_percent = round(float(your_score/max_score)*100,2)
+
+print("You got", final_percent,"%")
+
+if final_number >= .90:
+  print("Look's like you got an A+")
+elif final_number >= .80 and final_number <=.89:
+  print("Look's like you got an A-")
+elif final_number >= .70 and final_number <=.79:
+  print("Look's like you got an B")
+elif final_number >= .60 and final_number <=.69:
+  print("Look's like you got an C")
+elif final_number >= .60 and final_number <=.69:
+  print("Look's like you got an D")
+elif final_number >= .50 and final_number <=.59:
+  print("Look's like you got an -D")
+elif final_number >= .40 and final_number <=.59:
+  print("Look's like you got an U")
+else: 
+  print ("Try Again!")
